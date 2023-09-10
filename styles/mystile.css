@@ -1,0 +1,16 @@
+.mt-2 {
+    margin-top: 4rem; /* Vous pouvez ajuster la valeur selon vos besoins */
+}
+.mt-1 {
+    margin-top: 2rem; /* Vous pouvez ajuster la valeur selon vos besoins */
+}
+.card {
+    border: 1px solid #ccc; /* Ajoute une bordure */
+    padding: 20px; /* Ajoute un espacement intérieur */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Ajoute une ombre */
+    border-radius: 8px; /* Ajoute un coin arrondi */
+}
+.text-green {
+    color: green;
+}
+

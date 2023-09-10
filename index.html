@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/mystile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -26,8 +27,7 @@
                     Ingénieur en Informatique
                 </h1>
                 <p>
-                   Je suis spécialisé en architecture et génie logiciel.
-                    Je suis à la recherche d'une nouvelle opportunitée.
+                    Je suis spécialisé en <b>Génie Logiciel</b> et <b>DevOps</b>.
                 </p>
                 <div class="btn-con">
                     <a href="doc/cv.pdf" class="main-btn">
@@ -41,383 +41,169 @@
     <main>
         <section class="container about" id="about">
             <div class="main-title">
-                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+                <h2>A propos de <span>moi</span><span class="bg-text">about me</span></h2>
             </div>
-            <div class="about-container">
-                <div   class="left-about">
-                    <h4>A propos de moi</h4>
-                    <p>
-                        Je suis Brody Gaudel MOUNANGA BOUKA, Ingénieur en Informatique, spécialisé en architecture et génie logiciel.<br />
-                        Je suis apte à exercer dans les postes suivants:<br />
-                        Ingénieur en Informatique<br />
-                        Ingénieur en Génie Logiciel<br />
-                        Ingénieur Développeur FullStack<br />
-                        Ingénieur Cloud-DevOps<br />
-                        Architecte des SI<br />
-                        Architecte Logiciel<br />
-
-                    </p>
-                    <div class="btn-con">
-                        <a href="doc/cv.pdf" class="main-btn">
-                            <span class="btn-text">Download CV</span>
-                            <span class="btn-icon"><i class="fas fa-download"></i></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="right-about">
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text"></p>
-                            <p class="small-text">Appliquer les différentes étapes de développement logiciel
-                            </p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text"></p>
-                            <p class="small-text">Concevoir et développer des architectures logicielles
-                            </p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text"></p>
-                            <p class="small-text">Conception de logiciels à fonctionnement sûr et sécurisé</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text"></p>
-                            <p class="small-text">Mettre en œuvre des architectures systèmes et réseau</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="about-stats">
+                <h4 class="stat-title">Au seins de votre entreprise je peux:</h4>
+                <ul style="text-align:center">
+                    <li>Développer des applications web (backend & frontend)</li>
+                    <li>Concevoir des logiciels à fonctionement sur et sécurisé</li>
+                    <li>Concevoir et développer des architectures logicielles</li>
+                    <li>Developper des applications Cloud Native</li>
+                    <li>Mettre en place des pipeline CICD </li>
+                </ul>
             </div>
             <div class="about-stats">
                 <h4 class="stat-title">Mes compétences</h4>
                 <div class="left-about">
-                    <p style="text-align:center" ><b style="color:green">BACK-END</b></p>
-                    <p style="text-align:center" >Java, Java EE, Spring Boot, Spring Security, Spring Cloud<br />
-                        C#, .NET Core, Axon, Maven, Kafka, Rabbit MQ<br />
-                    </p style="text-align:center">
-                </div>
-                <div class="left-about">
-                    <p style="text-align:center" ><b style="color:green"> FRONT-END </b></p>
-                    <p style="text-align:center" >JavaScript, TypeScript, HTML, CSS<br />
-                        Angular, Bootstraap<br />
+                    <p style="text-align:center" >
+                        <b style="color:green">Langage de programmation</b>
                     </p>
-                </div>
-                <div class="left-about" >
-                    <p style="text-align:center" ><b style="color:green"> DATA </b></p>
-                    <p style="text-align:center" >SQL, PL/SQL, Oracle Database, MySQL, MongoDB<br />
+                    <p style="text-align:center">
+                        Java, C#, C, TypeScript, JavaScript, Python
                     </p>
                 </div>
                 <div class="left-about">
-                    <p style="text-align:center" ><b style="color:green"> Cloud-DevOps </b></p>
-                    <p style="text-align:center" >Git, Nexus, SonarQube, Jenkins, Docker, Kubernetes, Ansible<br />
-                        OpenStack, OpenShift, AWS, Terraform<br />
+                    <p style="text-align:center" >
+                        <b style="color:green">Développement Backend</b>
+                    </p>
+                    <p style="text-align:center">
+                        Spring Boot, Jakarta EE, Axon Framework, ASP.NET Core, Django, Kafka<br>
+                        Maven, Gradle
                     </p>
                 </div>
                 <div class="left-about">
-                    <p style="text-align:center" ><b style="color:green"> Autres </b></p>
-                    <p style="text-align:center" >Méthodologies Agiles, Scrum<br />
-                        Modélisation avec UML<br />
-                        Développement mobile natif android avec Java<br />
-                        IA avec Python, Machine Learning, Deep Learning<br />
-                        C/C++<br />
+                    <p style="text-align:center" >
+                        <b style="color:green">Développement Frontend</b>
+                    </p>
+                    <p style="text-align:center">
+                        Angular, Bootstrap,  HTML, CSS
                     </p>
                 </div>
-
-
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="prog-title">JEE/Spring Boot</p>
-                        <div class="progress-con">
-                            <p class="prog-text">95%</p>
-                            <div class="progress">
-                                <span class="css"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">C#/.NET</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="html"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Angular</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="html"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Oracle Database/MySQL</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="html"></span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="left-about">
+                    <p style="text-align:center" >
+                        <b style="color:green">Base de données et SGBD</b>
+                    </p>
+                    <p style="text-align:center">
+                        SQL, PL/SQL, Oracle Database, MySQL, MongoDB
+                    </p>
+                </div>
+                <div class="left-about">
+                    <p style="text-align:center" >
+                        <b style="color:green">DevOps</b>
+                    </p>
+                    <p style="text-align:center">
+                        Docker, Kubernetes, Jenkins, SonarQube, Nexus, Ansible, Vagrant
+                    </p>
+                </div>
+                <div class="left-about">
+                    <p style="text-align:center" >
+                        <b style="color:green">Cloud Computing</b>
+                    </p>
+                    <p style="text-align:center">
+                        Amazone Web Service (EC2, Lambda, Elastic Beanstalk)
+                    </p>
+                </div>
+                <div class="left-about">
+                    <p style="text-align:center" >
+                        <b style="color:green">Système d'exploitation</b>
+                    </p>
+                    <p style="text-align:center">
+                        Windows, Ubuntu
+                    </p>
                 </div>
             </div>
-            <h4 class="stat-title">Ma Formation</h4>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2018 - 2022</p>
-                    <h5>Diplôme d'Ingénieur<span> - ESPRIT: Ecole Supérieure Privée d'Ingénierie et de Technologies</span></h5>
-                    <p>
-                        Spécialié: Informatique
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2014 - 2015</p>
-                    <h5>Baccalauréat<span> - Lycée Eugène Marcel de Franceville</span></h5>
-                    <p>
-                        série C: Mathématiques et Sciences Physiques
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2016 - 2018</p>
-                    <h5>Classe Préparatoire<span> - Université Libre de Tunis</span></h5>
-                    <p>
-                        MP: Mathématiques et Physique
-                    </p>
-                </div>
-                <!--<div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2009 - 2013</p>
-                    <h5>Business Degree<span> - Sussex University</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div>-->
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2015 - 2016</p>
-                    <h5>Licence 1 Mathématiques<span> - Université des Sciences et Techniques de Franceville</span></h5>
-                    <p>
-                        L1 Mathématiques et Informatique
-                    </p>
-                </div>
-                <!--<div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2017 - present</p>
-                    <h5>3d Animation<span> - Brighton University</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div>-->
-            </div>
+
         </section>
         <section class="container" id="portfolio">
             <div class="main-title">
-                <h2>Mes <span>Projets</span><span class="bg-text">My Work</span></h2>
+                <h2>Ma <span>Formation</span><span class="bg-text">Ma formation</span></h2>
             </div>
-            <p class="port-text">
-                Voici quelques-uns de mes travaux que j'ai effectués</p>
-            <div class="portfolios">
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port1.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="https://github.com/BrodyGaudel/MicroserviceSpringCloud" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port2.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="https://github.com/BrodyGaudel/Event-Driven-Micro-Services-Architectures-with-CQRS-and-Event-Sourcing-AXON-and-Spring-Cloud" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port3.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="https://github.com/BrodyGaudel/Spring-Boot-Spring-Security-with-JWT-including-Access-and-Refresh-Tokens" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port4.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="https://github.com/BrodyGaudel/AngularConsommiTounsi" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port5.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="https://github.com/BrodyGaudel/Reactive-Rest-CRUD-APIs-Using-Spring-Boot-WebFlux-and-MongoDB" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port2.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="https://github.com/BrodyGaudel/Consommi-Tounsi" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port7.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="https://github.com/BrodyGaudel/Digital-Banking" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <div>
+                <h2>Diplôme d'Ingénieur en Informatique</h2>
+                <h3>Majeure: Software Engineering</h3>
+                <p>ESPRIT - Ecole Supérieure Privée d'Ingénierie et de Technologie</p>
+                <p>2018 - 2023, Tunis - Tunisie</p>
             </div>
+            <div class="mt-2">
+                <h2>Classe Préparatoire aux Etudes d'Ingénieurs</h2>
+                <h3>Parcours MP: Mathématiques et Physique</h3>
+                <p>ULT - Université Libre de Tunis</p>
+                <p>2016 - 2018, Tunis - Tunisie</p>
+            </div>
+            <div class="mt-2">
+                <h2>Baccalauréat Scientifique</h2>
+                <h3>Série C: Mathématiques</h3>
+                <p>Lycée Eugène Marcel Amogho</p>
+                <p>2015, Franceville - Gabon</p>
+            </div>
+
+
         </section>
         <section class="container" id="blogs">
             <div class="blogs-content">
                 <div class="main-title">
                     <h2>Mes <span>expériences</span><span class="bg-text">Mes expériences</span></h2>
                 </div>
-                <div class="blogs">
-                    <div class="blog">
-                        <img src="img/port6.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Ingénieur en Génie Logiciel, Stage
-                            </h4>
-                            <p>
-                                Conception d'un système d'intégration du tableau de bord des enseignants avec Google<br/>
-                                Calendar à travers les APIs Google. L'objectif étant d'intégrer les données de Google<br/>
-                                Calendar dans le système d'information d'ESPRIT.<br/>
-                                Avec Java EE, Spring Boot, Spring Security, OAuth2, Angular, Oracle Database<br/>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/esprit.png" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Ingénieur en Génie Logiciel, Stage
-                            </h4>
-                            <p>
-                                Architecture et développement d'un Module de gestion de paramétrage<br/>
-                                de base et de nomenclature d'un système scolaire.<br/>
-                                Avec C# - NET Core - Angular - Oracle Database<br/>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog2.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Consommi Tounsi, Projet Académique
-                            </h4>
-                            <p>
-                                Développement FullStack d'une application web pour la commercialisation<br/>
-                                et la promotion des produits 100% Tunisien.<br/>
-                                Avec Java EE, Spring Boot, Spring Security, Angular<br/>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog3.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Projet DevOps, Projet Académique
-                            </h4>
-                            <p>
-                                mise en production d'une application développer en JEE/Spring<br/>
-                                appliquer le principe CICD<br/>
-                                Avec Git, JUnit, Maven, Nexus, SonarQube, Jenkins, Docker<br/>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/port1.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                SkyFly , Projet Académique
-                            </h4>
-                            <p>
-                                Développement desktop d'une application desktop de gestion d'une agence de voyage<br/>
-                                de location de véhicule et d'Hotellerie<br/>
-                                Avec C, Glade GTK<br/>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/port3.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                E-BANKING
-                            </h4>
-                            <p>
-                                Développement d'une application e-banking<br/>
-                                avec JEE/Spring Boot, Spring Security<br/>
-                                Spring Cloud, Angular, Oracle Database.<br/>
-                            </p>
-                        </div>
-                    </div>
+                <div>
+                    <h2>Ingénieur Logiciel | DND-SERV</h2>
+                    <p>
+                        Conception et développement d'une application web de gestion comptable multi tenant,
+                        Avec les technologies suivantes: Java, Spring Boot, Axon Framework, MySQL et Angular
+                    </p>
+                    <p><i>Avril 2023 - Mai 2023, Tunis - Tunisie</i></p>
                 </div>
+                <div class="mt-2">
+                    <h2>Ingénieur Logiciel | GROUPE ESPRIT</h2>
+                    <p>
+                        Conception et développement d'un système d'intégration du tableau de bord des enseignants aux
+                        APIs Google telles que Google Calendar et Google Task. Avec Java, Spring Boot, Angular, Oracle Database
+                    </p>
+                    <p><i>Janvier 2022 - Juillet 2022, Tunis - Tunisie</i></p>
+                </div>
+                <div class="mt-2">
+                    <h2>Développeur Full Stack | GROUPE ESPRIT</h2>
+                    <p>
+                        Développement d'un module de gestion de paramétrage de base et de nomenclature d'un système scolaire
+                        Avec les technologies suivantes: Java, Spring Boot, Angular, MySQL, Maven
+                    </p>
+                    <p><i>Juin 2021 - Septembre 2021, Tunis - Tunisie</i></p>
+                </div>
+                <div class="mt-2">
+                    <h1 class="text-green mt-1">LES PROJETS QUE J'AI REALISE</h1>
+                </div>
+                <div class="mt-2">
+                    <h1>APPLICATION WEB E-BANK</h1>
+                    <p><i>
+                        Conception et développement d'une application de gestion des banques. Cette application est
+                        divisé en 3 Microservices: Gestion des Clients, Gestion des Comptes bancaires,
+                        Gestion des Opérations (Crédit, Débit, Transfert) et Gestion des utilisateurs.
+                        Technologies: Java, Spring Boot, Spring Cloud, Spring Security, Angular, Maven et MySQL.
+                    </i></p>
+                </div>
+                <div class="mt-2">
+                    <h2>PROJET DevOps</h2>
+                    <p><i>
+                        Mise en place d'un pipeline CICD, pour l'intégration continue et le deploiement continue d'une application développer en Java.
+                        Technologies: Jenkins, Docker, SonarQube, Nexus, Git, Maven.
+                    </i></p>
+                </div>
+                <div class="mt-2">
+                    <h2>E-Commerce</h2>
+                    <p><i>
+                        Conception et développement d'une application web de type e-commerce avec les modules tels que:
+                        Gestion des produits, Gestion des ventes, Gestion des commandes et Gestion des Livraisons.
+                        Technologies: Java, Spring Boot, MySQL, Angular et Maven.
+                    </i></p>
+                </div>
+                <div class="mt-2">
+                    <h2>SkyTravel</h2>
+                    <p><i>
+                        Conception et développement d'une application de burreau pour la gestion d'un hotel et d'une agence de voyage.
+                        Technologies: Langage C, Glade GTK
+                    </i></p>
+                </div>
+
             </div>
         </section>
         <section class="container contact" id="contact">
@@ -480,31 +266,11 @@
                                 <a href="https://github.com/BrodyGaudel" target="_blank">
                                     <i class="fab fa-github"></i>
                                 </a>
-                                <a href="https://www.linkedin.com/in/brody-gaudel-mounanga-bouka-19165aa5/" target="_blank">
-                                    <i class="fab fa-linkedin-square"><img src="img/link.png" width="40" height="34"/></i>
+                                <a href="https://www.linkedin.com/in/brody-gaudel-m-19165aa5/" target="_blank">
+                                    <i class="fab fa-linkedin-square"><img src="img/link.png" width="40" height="34" alt="linkedin"/></i>
                                 </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="right-contact">
-                        <form action="" class="contact-form">
-                            <div class="input-control i-c-2">
-                                <input type="text" required placeholder="YOUR NAME">
-                                <input type="email" required placeholder="YOUR EMAIL">
-                            </div>
-                            <div class="input-control">
-                                <input type="text" required placeholder="ENTER SUBJECT">
-                            </div>
-                            <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
-                            </div>
-                            <div class="submit-btn">
-                                <a href="doc/cv.pdf" class="main-btn">
-                                    <span class="btn-text">Download CV</span>
-                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
-                                </a>
-                            </div>
-                        </form>
                     </div>
                 </div>
             </div>
